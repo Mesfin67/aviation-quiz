@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+  <defs>
+    <linearGradient id="planeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00c6ff"/>
+      <stop offset="50%" stop-color="#0072ff"/>
+      <stop offset="100%" stop-color="#00ff9d"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#planeGradient)" d="M480 192H365.71L260.61 8.48A16 16 0 0 0 246.06 0h-44.65a8 8 0 0 0-7.15 11.59L219.79 192H144L112 160H64l48 64-48 64h48l32-32h75.79l-25.53 180.41A8 8 0 0 0 201.41 512h44.65a16 16 0 0 0 14.55-8.48L365.71 320H480a32 32 0 0 0 32-32v-64a32 32 0 0 0-32-32z"/>
+</svg>
