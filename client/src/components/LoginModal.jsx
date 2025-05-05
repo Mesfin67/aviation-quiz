@@ -16,7 +16,7 @@ const LoginModal = ({ show, handleClose }) => {
     setErrorMsg('');
     console.log('Submitting login with formData:', formData);
     try {
-      const res = await axios.post('http://localhost:5000/api/auth/login', formData);
+      const res = await axios.post('https://aviation-quiz-backend.onrender.com/api/auth/login', formData);
       console.log('Login response from server:', res.data);
       login(res.data.token);
       handleClose();
