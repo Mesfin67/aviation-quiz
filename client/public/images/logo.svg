@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 100">
+  <!-- Feather-like shapes representing the Ethiopian flag colors -->
+  <path d="M10,90 C30,60 30,40 10,10 L40,10 C60,40 60,60 40,90 Z" fill="#548C44"/>
+  <path d="M50,90 C70,60 70,40 50,10 L80,10 C100,40 100,60 80,90 Z" fill="#ECD314"/>
+  <path d="M90,90 C110,60 110,40 90,10 L120,10 C140,40 140,60 120,90 Z" fill="#C32434"/>
+</svg>

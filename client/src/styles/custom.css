@@ -1,0 +1,118 @@
+/* /client/src/styles/custom.css */
+
+/* Base styles and background: a light green with a square grid overlay */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e8f5e9;
+  height: 100%;
+  width: 100%;
+ 
+}
+
+
+
+/* Glass-like, sticky Navbar */
+.navbar-white {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  z-index: 1050;
+}
+
+/* Main content container: 
+   - In normal (collapsed) state, top padding equals 60px (flush with navbar). 
+   - When expanded, it transitions to 120px.
+*/
+.main-content {
+  padding-top: 1rem;
+  margin-top: 0;
+  margin-bottom: 20px;
+  transition: padding-top 0.5s ease;
+
+}
+
+/* Card Styling */
+.card {
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+
+/* Global Button Transition */
+.button {
+  transition: all 0.3s ease;
+  font-size: 0.8rem;
+  padding: 0.3rem 0.3rem;
+  border-radius: 4px;
+  outline: none;
+}
+.button:focus {
+  outline: none;
+  box-shadow: none;
+}
+/* Remove focus blue outline for accordion buttons */
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+/* Navbar Toggler (small toggler and icon) */
+.navbar-toggler {
+  padding: 0.2rem 0.4rem;
+  font-size: 0.8rem;
+  border: none;
+  outline: none;
+}
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+.navbar-toggler-icon {
+  width: 20px;
+  height: 20px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(0,0,0,0.7)' stroke-width='2' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+  width: 20px;
+  height: 20px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cline x1='4' y1='4' x2='26' y2='26' stroke='%23008000' stroke-width='2' stroke-linecap='round'/%3E%3Cline x1='26' y1='4' x2='4' y2='26' stroke='%23008000' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");
+}
+
+/* Mobile-specific navbar button styling */
+@media (max-width: 576px) {
+  .navbar .btn.login-btn,
+  .navbar .btn.signup-btn {
+    background: none;
+    border: none;
+    color: black;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+  .navbar .btn.logout-btn {
+    padding: 0.2rem 0.4rem;
+    font-size: 0.8rem;
+    max-width: 60px;
+  }
+}
+/* (Existing styles remain as in your earlier custom.css) */
+
+/* Example for progress aside bar in wide screens (for QuizPage) */
+.progress-aside {
+  position: fixed;
+  right: 20px;
+  top: 100px;
+   width: 100px;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.resources-page{
+  margin: 0 60px;
+}
+
+
