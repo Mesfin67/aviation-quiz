@@ -15,7 +15,7 @@ const SignupModal = ({ show, handleClose }) => {
     setErrorMsg('');
     setSuccessMsg('');
     try {
-      const res = await axios.post('http://localhost:5000/api/auth/signup', formData);
+      const res = await axios.post('https://aviation-quiz-backend.onrender.com/api/auth/signup', formData);
       setSuccessMsg(res.data.message || 'Signup successful! You can now log in.');
     } catch (error) {
       console.error('Error during signup:', error.response ? error.response.data : error);
