@@ -124,7 +124,8 @@ const Home = ({ setShowLogin, setShowSignup }) => {
             
             {/* Invitation Cards Section */}
             <Container fluid style={{ padding: '20px 0', overflowX: 'hidden' }}>
-            <h2 className="text-center" style={{ marginTop: '30px' }}>Discover-Courses</h2>
+            <h2 className="text-center" style={{ margin: '30px' }}>Discover-Courses</h2>
+            <hr />
 
               <Row className="g-4" style={{ justifyContent: "center" }}>
                 {invitationCards.map((card, idx) => (
@@ -145,7 +146,7 @@ const Home = ({ setShowLogin, setShowSignup }) => {
             </Container>
 
             {/* Slider Section - Placed below the cards with spacing */}
-            <Container fluid style={{ padding: 0, margin: '30px 0 0px 0', overflowX: 'hidden' }}>
+            <Container fluid style={{ padding: 0, margin: '10px 0 0px 0', overflowX: 'hidden' }}>
               <h2 className="text-center" style={{ marginBottom: '10px' }}>Featured</h2>
               <Carousel controls={false} indicators={true} fade interval={3000}>
                 {sliderImages.map((src, idx) => (
