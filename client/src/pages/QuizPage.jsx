@@ -689,7 +689,7 @@ const QuizPage = ({ setQuizStatus }) => {
     top: "60px",
     background: "rgba(255, 255, 255, 0.7)",
     backdropFilter: "blur(5px)",
-    padding: "0px 10px",
+    padding: "5px 10px",
     borderRadius: "4px",
     zIndex: 999,
     fontSize: "0.9rem",
@@ -700,7 +700,7 @@ const QuizPage = ({ setQuizStatus }) => {
   return (
     <div style={{ padding: "20px" }}>
       {isMobile ? (
-        <div style={trackerStyle}>
+        <div  style={trackerStyle}>
           <div>
             <span role="img" aria-label="timer">⏰</span> {formatTime(timeLeft)}
           </div>
