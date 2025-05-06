@@ -26,23 +26,75 @@ const generateDummyQuestions = (subCourseCode) => {
   // Choose the appropriate content based on the sub-course code.
   switch (cleanCode) {
     // GC sub-courses:
-    case "GC001":
-      topic = "Aviation Mathematics";
-      templates = [
-        "What is the formula for the area of a circle?",
-        "Which constant is essential when calculating circular areas?",
-        "How does doubling the radius affect the area of a circle?"
-      ];
-      optionSets = [
-        ["πr²", "2πr", "πd", "r²"],
-        ["π", "e", "φ", "√2"],
-        ["It quadruples the area", "It doubles the area", "It increases linearly", "It remains unchanged"]
-      ];
-      explanationSets = [
-        "The area of a circle is given by π multiplied by the square of the radius—a fundamental concept in aviation design.",
-        "Pi (π) is the key constant that relates a circle's circumference to its diameter and is indispensable in circular calculations.",
-        "Because area scales with the square of the radius, doubling the radius will quadruple the area."
-      ];
+    case "GC001": 
+    topic = "Aviation Mathematics";
+    templates = [
+    "What’s the magic number for converting nautical miles to kilometers?",
+    "If an aircraft climbs at 500 feet per minute, how high will it be after 10 minutes?",
+    "Which unit is used to measure an aircraft’s altitude?",
+    "If you double the speed but fly the same time, what happens to the distance?",
+    "What’s the basic formula connecting speed, distance, and time?",
+    "A flight covers 240 nautical miles in 2 hours. What is the average speed?",
+    "What angle forms a right triangle's hypotenuse when the aircraft climbs straight up?",
+    "How many feet are in a nautical mile, the classic aviation unit?",
+    "What’s the term for a triangle with all sides of different lengths—often used in wind triangle problems?",
+    "What’s the value of sin(30°)?",
+    "A pilot flies 60° east of north. What type of angle is that?",
+    "Convert 90 knots to kilometers per hour (1 knot ≈ 1.852 km/h).",
+    "Which formula helps determine the ground speed when wind is a factor?",
+    "What do you call a line connecting equal altitudes on a navigation chart?",
+    "Why are radians useful in circular flight path calculations?",
+    "What triangle rule helps find an unknown side using two sides and the included angle?",
+    "Which unit is used for vertical speed in aviation?",
+    "If a plane descends at 1,200 feet per minute, how long will it take to descend 9,600 feet?",
+    "Which trigonometric function is opposite over hypotenuse?",
+    "What tool do pilots use to solve flight planning problems involving heading, wind, and ground speed?"
+    ];
+    optionSets = [
+    ["1.852", "2.5", "1.609", "0.9144"],
+    ["5000 feet", "50 feet", "1500 feet", "10000 feet"],
+    ["Feet", "Meters", "Seconds", "Miles"],
+    ["It doubles", "It stays the same", "It halves", "It quadruples"],
+    ["Speed = Distance / Time", "Distance = Time / Speed", "Time = Speed × Distance", "Speed = Time × Distance"],
+    ["120 knots", "100 knots", "60 knots", "150 knots"],
+    ["90°", "0°", "180°", "45°"],
+    ["6076 feet", "5280 feet", "1000 meters", "1 mile"],
+    ["Scalene triangle", "Isosceles triangle", "Equilateral triangle", "Right triangle"],
+    ["0.5", "1", "0.707", "√3/2"],
+    ["Acute", "Right", "Obtuse", "Reflex"],
+    ["166.68 km/h", "90 km/h", "100 km/h", "120.56 km/h"],
+    ["Ground speed = Airspeed ± Wind component", "Speed = Time / Distance", "Altitude × Time", "Fuel × Distance"],
+    ["Contour line", "Isoline", "Isobar", "Isogonic line"],
+    ["Because they relate directly to arc lengths", "They are cooler than degrees", "Radians are used in engines", "Pilots use them to plot graphs"],
+    ["Cosine rule", "Sine rule", "Pythagorean theorem", "Law of tangents"],
+    ["Feet per minute", "Meters per second", "Knots", "Miles per hour"],
+    ["8 minutes", "6 minutes", "10 minutes", "12 minutes"],
+    ["Sine", "Cosine", "Tangent", "Secant"],
+    ["E6B flight computer", "Altimeter", "Heading indicator", "Airspeed indicator"]
+    ];
+    explanationSets = [
+    "1 nautical mile equals approximately 1.852 kilometers—a key conversion in international aviation.",
+    "At 500 feet per minute, in 10 minutes the aircraft climbs 5000 feet. Simple multiplication.",
+    "Altitude in aviation is typically measured in feet above mean sea level.",
+    "Doubling speed doubles the distance when time is constant—basic proportionality.",
+    "The relationship between speed, distance, and time is foundational in flight planning.",
+    "Distance divided by time gives average speed: 240 / 2 = 120 knots.",
+    "An angle of 90° is formed when the aircraft ascends vertically—creating a right triangle.",
+    "A nautical mile is defined as exactly 6076 feet—slightly longer than a land mile.",
+    "A scalene triangle has all sides of different lengths, useful for solving wind triangle problems.",
+    "The sine of 30° is 0.5, a basic trigonometric fact used in navigation and descent angle calculations.",
+    "Any angle less than 90° is an acute angle, and 60° qualifies.",
+    "To convert 90 knots to km/h: 90 × 1.852 = 166.68 km/h.",
+    "To account for wind, you adjust airspeed by the wind component to get ground speed.",
+    "These lines are called contour or isoline lines, showing equal values—like altitude.",
+    "Radians simplify formulas for arc lengths, making them useful in circular motion calculations.",
+    "The cosine rule helps find a missing side when you know two sides and the angle between.",
+    "Vertical speed in aviation is usually measured in feet per minute (fpm).",
+    "9600 ÷ 1200 = 8 minutes to descend when descending at 1200 fpm.",
+    "The sine function is the ratio of opposite side to hypotenuse in a right triangle.",
+    "Pilots use the E6B flight computer to calculate heading, wind correction, and ground speed."
+    ];
+    
       break;
     case "GC002":
       topic = "Aviation Physics";
