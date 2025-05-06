@@ -39,6 +39,7 @@ const LoginModal = ({ show, handleClose }) => {
             <Form.Control
               type="text"
               name="username"
+              autocomplete="username"
               placeholder="Enter username"
               value={formData.username}
               onChange={handleChange}
@@ -52,6 +53,7 @@ const LoginModal = ({ show, handleClose }) => {
             <Form.Control
               type="password"
               name="password"
+              autocomplete="password"
               placeholder="Enter password"
               value={formData.password}
               onChange={handleChange}
