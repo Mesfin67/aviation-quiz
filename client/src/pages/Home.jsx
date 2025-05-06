@@ -148,6 +148,7 @@ const Home = ({ setShowLogin, setShowSignup }) => {
             {/* Slider Section - Placed below the cards with spacing */}
             <Container fluid style={{ padding: 0, margin: '10px 0 0px 0', overflowX: 'hidden' }}>
               <h2 className="text-center" style={{ marginBottom: '10px' }}>Featured</h2>
+              <hr />
               <Carousel controls={false} indicators={true} fade interval={3000}>
                 {sliderImages.map((src, idx) => (
                   <Carousel.Item key={idx}>
