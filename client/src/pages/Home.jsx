@@ -236,7 +236,7 @@ const Home = ({ setShowLogin, setShowSignup }) => {
         padding: '10px 0',
         marginBootom: 0,
       }}>
-        <small>&copy; {new Date().getFullYear()} Made with 💖 by Jr</small>
+        <small>&copy; {new Date().getFullYear()} Made with 💖 by M</small>
       </footer>
     </>
   );
