@@ -48,8 +48,8 @@ const NavbarComp = ({ setShowLogin, setShowSignup, navExpanded, setNavExpanded, 
         <Navbar.Brand>
           {isHome ? (
             <>
-              <img src="images/logo.svg" alt="logo" width="40" height="40" />
-              <span style={{ marginLeft: '5px', marginTop: "500px" }}></span>
+              <img src="images/logo.svg" alt="logo" width="40" height="40" style={{ marginLeft: '15px' }} />
+              <span style={{ marginLeft: '15px', marginTop: "500px" }}></span>
             </>
           ) : (
             <Button
