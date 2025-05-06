@@ -17,10 +17,10 @@ function App() {
  // quizStatus holds { givenTime, remainingTime, answered, total } from QuizPage
  const [quizStatus, setQuizStatus] = useState(null);
 
-  useEffect(() => {
-    const timer = setTimeout(() => setInitialLoading(false), 1500);
-    return () => clearTimeout(timer);
-  }, []);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => setInitialLoading(false), 1500);
+  //   return () => clearTimeout(timer);
+  // }, []);
 
   // if (initialLoading) {
   //   return (

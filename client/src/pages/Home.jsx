@@ -16,7 +16,7 @@ const Home = ({ setShowLogin, setShowSignup }) => {
     margin: 0,
     padding: 0,
     overflow: 'hidden',
-    backgroundImage: "url('images/tech6-min.png')",
+    backgroundImage: "url('images/tech6-mi.webp')",
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
@@ -45,9 +45,9 @@ const Home = ({ setShowLogin, setShowSignup }) => {
   };
 
   const sliderImages = [
-    "images/tech6-min.png",
-    "images/et1.jpg",
-    "images/et2.jpg",
+    "images/tech6-mi.webp",
+    "images/et1.webp",
+    "images/et2.webp",
   ];
 
   // Invitation cards data (will trigger login modal on "Get Started")
@@ -55,22 +55,22 @@ const Home = ({ setShowLogin, setShowSignup }) => {
     {
       title: 'General Course',
       description: 'Prepare to learn and test your knowledge on the fundamentals of aviation mathematics,physices and basic aerodynamics.',
-      imgSrc: 'images/plane3.jpg'
+      imgSrc: 'images/plane3.webp'
     },
     {
       title: 'Powerplant',
       description: 'Discover the world of aircraft engines—from piston to gas turbines.',
-      imgSrc: 'images/engine.jpg'
+      imgSrc: 'images/engine.webp'
     },
     {
       title: 'Avionics',
       description: 'Test your knowledge on modern avionics including electrical systems and digital techniques.',
-      imgSrc: 'images/av.jpg'
+      imgSrc: 'images/av.webp'
     },
     {
       title: 'Airframe',
       description: 'Test your Understanding in aircraft structures, from design to assembly and rigging.',
-      imgSrc: 'images/af.jpg'
+      imgSrc: 'images/af.webp'
     }
   ];
 
