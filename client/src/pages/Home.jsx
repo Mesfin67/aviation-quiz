@@ -12,7 +12,7 @@ const Home = ({ setShowLogin, setShowSignup }) => {
   const outerStyle = {
     position: 'relative',
     width: '100%',
-    height: '100vh', // full viewport height
+    height: '90vh', // full viewport height
     margin: 0,
     padding: 0,
     overflow: 'hidden',
