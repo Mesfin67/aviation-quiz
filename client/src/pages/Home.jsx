@@ -16,7 +16,7 @@ const Home = ({ setShowLogin, setShowSignup }) => {
     margin: 0,
     padding: 0,
     overflow: 'hidden',
-    backgroundImage: "url('images/tech6-mi.webp')",
+    backgroundImage: "url('images/tech6.webp')",
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
@@ -45,7 +45,7 @@ const Home = ({ setShowLogin, setShowSignup }) => {
   };
 
   const sliderImages = [
-    "images/tech6-mi.webp",
+    "images/tech6.webp",
     "images/et1.webp",
     "images/et2.webp",
   ];
