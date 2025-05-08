@@ -48,8 +48,8 @@ const Home = ({ setShowLogin, setShowSignup }) => {
     "images/plane3.webp",
     // "images/et1.webp",
     // "images/et2.webp",  
-    "images/plane7.webp",
-    "images/plane8.webp",
+    "images/plane9.webp",
+    "images/plane8.webp"
 
 
   ];
