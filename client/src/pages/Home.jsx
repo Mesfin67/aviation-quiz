@@ -109,7 +109,6 @@ const Home = ({ setShowLogin, setShowSignup }) => {
             <div style={outerStyle}>
               <div style={overlayStyle}></div>
               <div style={contentCenterStyle}>
-              <h1 className='display-3 ' > Welcome to Trainee Technicians-Hub</h1>
               <h1 className='display-3' >Trainee Technicians-Hub</h1>
 <p className='mx-5'>
   Test your skills with questions on Avionics, Airframe, Powerplant and more. Learn as you go and enjoy the journey!
