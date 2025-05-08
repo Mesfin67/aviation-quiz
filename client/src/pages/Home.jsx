@@ -16,7 +16,7 @@ const Home = ({ setShowLogin, setShowSignup }) => {
     margin: 0,
     padding: 0,
     overflow: 'hidden',
-    backgroundImage: "url('images/tech6.webp')",
+    backgroundImage: "url('images/plane3.webp')",
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
@@ -45,9 +45,13 @@ const Home = ({ setShowLogin, setShowSignup }) => {
   };
 
   const sliderImages = [
-    "images/tech6.webp",
-    "images/et1.webp",
-    "images/et2.webp",
+    "images/plane3.webp",
+    // "images/et1.webp",
+    // "images/et2.webp",  
+    "images/plane7.webp",
+    "images/plane8.webp",
+
+
   ];
 
   // Invitation cards data (will trigger login modal on "Get Started")
@@ -105,8 +109,8 @@ const Home = ({ setShowLogin, setShowSignup }) => {
             <div style={outerStyle}>
               <div style={overlayStyle}></div>
               <div style={contentCenterStyle}>
-              <h1 className='display-3' > Welcome to Trainee Technicians-Hub</h1>
-<p>
+              <h1 className='display-3 mx-5' > Welcome to Trainee Technicians-Hub</h1>
+<p className='mx-5'>
   Test your skills with questions on Avionics, Airframe, Powerplant and more. Learn as you go and enjoy the journey!
 </p>
 
